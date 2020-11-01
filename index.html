@@ -307,7 +307,7 @@
                 </div>
               </div>
             </div>
-            <!-- <div class="col-md-4 ">
+            <div class="col-md-4 ">
               <div class="card card-contain-style" >
                 <img class="card-img-top" src="img/eschool.png" alt="Card image cap">
                 <div class="card-body card-style"style="padding:10px;">
@@ -331,8 +331,7 @@
                   </div>
                 </div>
               </div>
-            </div> -->
-      
+            </div>
     </div>
     </div>
     <!--/Portfolio Wrapper --> 
@@ -396,11 +395,7 @@
                                 <h4>Email us</h4>
                                 <p>mdiqbal.hossain0022@gmail.com</p>
                             </div> 
-                        </div>
-       		  
-                        
-                        
-                        
+                        </div>   
           
           <ul class="social_links">
             <li class="twitter animated bounceIn wow delay-02s"><a href="https://twitter.com/IqbalDevly" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -411,42 +406,43 @@
         <div class="col-lg-8 wow fadeInLeft delay-06s">
          	  <!--NOTE: Update your email Id in "contact_me.php" file in order to receive emails from your contact form-->
         
-		<form name="sentMessage" id="contactForm"  novalidate> 
-		 <div class="control-group">
-                    <div class="controls">
-			<input type="text" class="form-control" 
-			   	   placeholder="Full Name" id="name" required
-			           data-validation-required-message="Please enter your name" />
-			  <p class="help-block"></p>
-		   </div>
-	         </div> 	
-                <div class="control-group">
-                  <div class="controls">
-			<input type="email" class="form-control" placeholder="Email" 
-			   	            id="email" required
-			   		   data-validation-required-message="Please enter your email" />
-		</div>
-	    </div> 	
-			  
-               <div class="control-group">
-                 <div class="controls">
-				 <textarea rows="10" cols="100" class="form-control" 
-                       placeholder="Message" id="message" required
-		       data-validation-required-message="Please enter your message" minlength="5" 
-                       data-validation-minlength-message="Min 5 characters" 
-                        maxlength="999" style="resize:none"></textarea>
-		</div>
-               </div> 		 
-	     <div id="success"> </div> <!-- For success/fail messages -->
-	    <button type="submit" class="btn btn-primary pull-right">Send</button><br />
-          </form>
+             <form action="mailto:pkmdiqbal@gmail.com" method="post" name="sentMessage" enctype="text/plain" novalidate> 
+              <div class="control-group">
+                             <div class="controls">
+               <input  type="text" name="name" class="form-control" 
+                       placeholder="Full Name" id="name" required
+                          data-validation-required-message="Please enter your name" />
+                 <p class="help-block"></p>
+                </div>
+                    </div> 	
+                         <div class="control-group">
+                           <div class="controls">
+               <input  type="email" name="email" class="form-control" placeholder="Email" 
+                                id="email" required
+                         data-validation-required-message="Please enter your email" />
+             </div>
+               </div> 	
+                 
+                        <div class="control-group">
+                          <div class="controls">
+                  <textarea  rows="10" cols="100" name="message" class="form-control" 
+                                placeholder="Message" id="message" required
+                    data-validation-required-message="Please enter your message" minlength="5" 
+                                data-validation-minlength-message="Min 5 characters" 
+                                 maxlength="999" style="margin: 15px 0;"></textarea>
+             </div>
+                        </div> 		 
+                   <div> </div>
+               <button  class="btn btn-primary pull-right">Send</button><br />
+         
+                   </form>
         </div>
       </div>
     </section>
   </div>
-  <!-- <div class="container">
-    <div class="footer_bottom"><span>Copyright © 2020. The best <a href="https://webthemez.com/tag/free" target="_blank">Free Template</a> by WebThemez.com</span> </div>
-  </div> -->
+  <div class="container">
+    <div class="footer_bottom"><span>Copyright © MD IQBAL HOSSAIN .2020. </span> </div>
+  </div>
 </footer>
 
 <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
